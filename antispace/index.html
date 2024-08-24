@@ -1,0 +1,67 @@
+2<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiSpace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EDISON.J.ESPINOSA'S ANTISPACE</h1>
+        <nav>
+            <ul>
+                <li><a href="#pomodoro">POMODORO</a></li>
+                <li><a href="#todo">TODO</a></li>
+                <li><a href="#character">CHARACTER</a></li>
+                <li><a href="#mail">MAIL</a></li>
+                <li><a href="#calendar">CALENDAR</a></li>
+                <li><a href="#notes">NOTES</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#settings">SETTINGS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="pomodoro">
+            <h2>POMODORO</h2>
+            <div class="timer">25:00</div>
+            <button id="startTimer">BREAK</button>
+        </section>
+        <section id="todo">
+            <h2>TODO</h2>
+            <div class="completed">0 completed</div>
+            <ul id="todoList"></ul>
+        </section>
+        <section id="character">
+            <h2>CHARACTER</h2>
+            <div class="character-info">
+                <div>TOOLS: <span id="tools">6 / 6</span></div>
+                <div>UPGRADES: <span id="upgrades">7 / 7</span></div>
+                <div>CONSCIOUS: <span id="conscious">Active</span></div>
+                <div>SUBCONSCIOUS: <span id="subconscious">0</span></div>
+            </div>
+        </section>
+        <section id="mail">
+            <h2>MAIL</h2>
+            <div class="mail-list"></div>
+        </section>
+        <section id="calendar">
+            <h2>CALENDAR</h2>
+            <div class="date">23 AUGUST</div>
+            <div class="events">2 EVENTS TODAY</div>
+            <div class="event-list"></div>
+        </section>
+        <section id="notes">
+            <h2>NOTES</h2>
+            <div class="note-list"></div>
+        </section>
+        <section id="news">
+            <h2>NEWS</h2>
+            <div class="news-list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
